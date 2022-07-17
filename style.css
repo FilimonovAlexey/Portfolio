@@ -1,0 +1,215 @@
+.page {
+  font-family: 'Cormorant Garamond';
+}
+
+.page__menu {
+  margin: 40px auto;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.centered-block {
+  margin: auto;
+}
+
+.header {
+  height: 95px;
+  display: flex;
+  max-width: 1330px;
+	min-width: 1280px;
+}
+
+.header__link {
+  font-size: 28px;
+  text-decoration: none;
+  color: #10191E;
+}
+
+.header__link::after {
+  content: "!";
+}
+
+.header__link[lang="ru"]::before {
+  content: 'Привет, меня зовут ';
+}
+
+.header__link[lang="en"]::before {
+  content: 'Hello, my name is ';
+}
+
+.header__link[lang="fr"]::before {
+  content: 'Bonjour, je suis ';
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  min-height: 75px;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1330px;
+	min-width: 1280px;
+	margin: 40px auto;
+}
+
+.menu__link {
+  font-size: 18px;
+  text-decoration: none;
+  color: #10191E;
+  margin-right: 20px;
+}
+
+.menu__link:last-of-type {
+  margin-right: 0;
+}
+
+.menu__link_active {
+  text-decoration: underline;
+}
+
+.content {
+	max-width: 1330px;
+	min-width: 1280px;
+}
+
+.content__title {
+  font-size: 34px;
+  margin: 0 0 40px;
+  text-align: center;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.flex-row_reversed {
+  flex-direction: row-reverse;
+}
+
+.flex-row_space_bottom {
+  margin-bottom: 60px;
+}
+
+.flex-column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-column_reversed {
+  flex-direction: column-reverse;
+}
+
+.project {
+  background-position: center;
+  background-size: cover;
+}
+
+.project_width_l {
+  width: 636px;
+}
+
+.project_width_m {
+  width: 306px;
+}
+
+.project_height_xl {
+  height: 557px;
+}
+
+.project_height_l {
+  height: 430px;
+}
+
+.project_height_m {
+  height: 290px;
+}
+
+.project_height_s {
+  height: 240px;
+}
+
+.project_name_music-album {
+  background-image: url(https://code.s3.yandex.net/web-code/album.png);
+}
+
+.project_name_design-principles {
+  background-image: url(https://code.s3.yandex.net/web-code/design.png);
+}
+
+.project_name_slider {
+  background-image: url(https://code.s3.yandex.net/web-code/slider.gif);
+}
+
+.project_name_reactive {
+  background-image: url(https://code.s3.yandex.net/web-code/reactive.gif);
+}
+
+.project_name_how-to-study {
+  background-image: url(https://code.s3.yandex.net/web-code/how-to-study.png);
+  order: 3;
+}
+
+.project_name_across-russia {
+  background-image: url(https://code.s3.yandex.net/web-code/across-russia.png);
+  order: 2;
+}
+
+.project_name_mesto {
+  background-image: url(https://code.s3.yandex.net/web-code/mesto.png);
+  order: 1;
+}
+
+.project__overlay {
+  background-color: rgba(0, 0, 100, .8);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 30px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20px;
+  opacity: 0;
+}
+
+.project__overlay:hover {
+  opacity: 1;
+}
+
+.project__video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.footer {
+  height: 95px;
+	display: flex;
+  justify-content: center;
+  max-width: 1330px;
+	min-width: 1280px;
+}
+
+.footer__logo {
+  width: 145px;
+  height: 25px;
+  background-image: url(https://pictures.s3.yandex.net/logo_black.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  align-self: center;
+}
+
+
+
+
